@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <section>
+            <form method="POST" action="https://formspree.io/dumavb777@gmail.com">
+                <fieldset>
+                    <h1>Visitor's profile</h1>
+                    <label>
+                        The name of the interviewer:
+                  <input type="text" name="name-client" placeholder="Your name" required>
+                        <Br>
+                        <br>
+                    </label>
+                    <label>
+                        Surname of the surveyor:
+                 <input type="text" name="surname-client" placeholder="Your surname" required>
+                        <Br>
+                        <br>
+                    </label>
+                    <label>
+                        Mail:
+                 <input type="email" name="email-client" placeholder="Your email" required>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Your passport number:
+                        <input type="text" name="passport-number" placeholder="Write passport number" required pattern="[А-Я]{2}[0-9]{6}" title="АБ123456">
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Your age please:
+                        <input type="number" min="14" max="59" step="1" name="age" pattern="\d+">
+                    </label>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Gender:</legend>
+                        <label>
+                            Male:
+                            <input type="radio" name="gander" value="male">
+                        </label>
+                        <label>
+                            Female:
+                            <input type="radio" name="gander" value="female">
+                        </label>
+                        <label>
+                            Other:
+                            <input type="radio" name="gander" value="other">
+                        </label>
+                    </fieldset>
+                    <br>
+                    <label for="browser">
+                        You use the browser:
+                        
+                        <select id="browser" name="user broser">
+                            <option value="mozilla">Mozilla firefox</option>
+                            <option value="chrome">Chrome</option>
+                            <option value="opera">Opera</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
